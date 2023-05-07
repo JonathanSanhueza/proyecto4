@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import { collection, getDocs} from 'firebase/firestore';
 import db from "../assets/firebase"
 import { useEffect, useState } from 'react';
-import PlatoCard from '../componentes/plato';
+import PlatoCard from '../componentes/Plato';
 
 
 function Menu() {
